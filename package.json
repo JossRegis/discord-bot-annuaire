@@ -1,8 +1,13 @@
 {
-  "name": "discord-bot",
+  "name": "discord-bot-annuaire",
   "version": "1.0.0",
+  "description": "Bot Discord Annuaire Fournisseurs",
   "main": "index.js",
-  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "discord.js": "^14.25.1",
     "node-fetch": "^2.7.0"
