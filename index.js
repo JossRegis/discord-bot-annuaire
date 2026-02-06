@@ -23,3 +23,6 @@ client.on("messageCreate", async (message) => {
 
 // ⚠️ NE MET PAS LE TOKEN EN DUR ICI
 client.login(process.env.DISCORD_TOKEN);
+
+console.log("TOKEN PRESENT ?", !!process.env.DISCORD_TOKEN);
+client.login(process.env.DISCORD_TOKEN);
