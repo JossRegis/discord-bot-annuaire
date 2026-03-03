@@ -26,3 +26,8 @@ client.login(process.env.DISCORD_TOKEN);
 
 console.log("TOKEN PRESENT ?", !!process.env.DISCORD_TOKEN);
 client.login(process.env.DISCORD_TOKEN);
+
+const express = require("express");
+const app = express();
+app.get("/", (req, res) => res.send("Bot running"));
+app.listen(process.env.PORT || 3000);
